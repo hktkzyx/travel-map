@@ -9,7 +9,7 @@ import pandas as pd
 
 # 读取用户数据
 initial_data = pd.read_csv('sample.csv')
-initial_data = initial_data.values
+columns=initial_data.columns
 
 fig, ax = plt.subplots()
 #创建图形对象
@@ -34,13 +34,14 @@ m.readshapefile('gadm36_MAC_shp/gadm36_MAC_0', 'macao', drawbounds=True, linewid
 #选取城市
 patches_1, patches_2, patches_3, patches_4 = [], [], [], []
 for info, shape in zip(m.cities_info, m.cities):
-    if info['NAME_2'] in initial_data[:, 0]:
+    city_name=info['NAME_2']
+    if city_name in initial_data.iloc[:, 0].values:
         patches_1.append(Polygon(shape, True))
-    elif info['NAME_2'] in initial_data[:, 1]:
+    elif city_name in initial_data.iloc[:, 1].values:
         patches_2.append(Polygon(shape, True))
-    elif info['NAME_2'] in initial_data[:, 2]:
+    elif city_name in initial_data.iloc[:, 2].values:
         patches_3.append(Polygon(shape, True))
-    elif info['NAME_2'] in initial_data[:, 3]:
+    elif city_name in initial_data.iloc[:, 3].values:
         patches_4.append(Polygon(shape, True))
 #绘制城市
 ax.add_collection(PatchCollection(patches_1, facecolors='C0'))
@@ -48,10 +49,10 @@ ax.add_collection(PatchCollection(patches_2, facecolors='C1'))
 ax.add_collection(PatchCollection(patches_3, facecolors='C2'))
 ax.add_collection(PatchCollection(patches_4, facecolors='C3'))
 #绘制图例
-cities1 = Patch(color='C0', label='Resident Cities')
-cities2 = Patch(color='C1', label='Working')
-cities3 = Patch(color='C2', label='Travelled Cities')
-cities4 = Patch(color='C3', label='Visited Cities')
+cities1 = Patch(color='C0', label=columns[0])
+cities2 = Patch(color='C1', label=columns[1])
+cities3 = Patch(color='C2', label=columns[2])
+cities4 = Patch(color='C3', label=columns[3])
 ax.legend(handles=[cities1, cities2, cities3, cities4], loc='lower left')
 ax.set_title('Travelled Map')
 fig.savefig('Travelled Map.pdf')
