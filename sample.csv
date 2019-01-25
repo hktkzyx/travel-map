@@ -1,10 +1,11 @@
-﻿Resident Cities,Working,Travelled Cities,Visited Cities
-Wuhan,Lijiang,Beijing,Xuzhou
-,Dali Bai,Dalian,Kunming
-,Jiujiang,Qingdao,Jinan
-,Chengdu,Yantai,Xi'an
-,Nanjing,Weihai,Mianyang
-,Huangshan,Rizhao,
-,Changsha,Shangqiu,
-,Haikou,Zhumadian,
-,Sanya,Suzhou,
+﻿居住,出差,旅行,中转
+武汉市,丽江市,北京|北京,徐州市
+Hong Kong,大理白族自治州,大连市,昆明市
+,九江市,青岛市,济南市
+,成都市,烟台市,西安市
+,南京市,威海市,绵阳市
+,黄山市,日照市,台北
+,长沙市,商丘市,
+,海口市,驻马店市,
+,三亚市,苏州市,
+,,Macao,
