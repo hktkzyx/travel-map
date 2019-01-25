@@ -11,7 +11,7 @@ from matplotlib.collections import PatchCollection
 import pandas as pd
 
 # 读取用户数据
-initial_data = pd.read_csv('my_data.csv')
+initial_data = pd.read_csv('sample.csv')
 columns = initial_data.columns
 
 fig, ax = plt.subplots()
