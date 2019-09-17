@@ -27,7 +27,7 @@ Windows用户可以通过[网站](https://www.lfd.uci.edu/~gohlke/pythonlibs/)�
 | 武汉市 | Hong Kong | 上海\|上海 | 杭州市         |
 |        | 昆明市    | 台北       | 大理白族自治州 |
 
-其中第一行为城市类型，城市类型名称和列数可以根据需要自行删减。
+其中第一行为城市类型，城市类型名称和列数可以自定义。
 
 中国大陆的城市名称应在`mainland_china.csv`文件的`NL_NAME_2`中查询
 
@@ -35,7 +35,7 @@ Windows用户可以通过[网站](https://www.lfd.uci.edu/~gohlke/pythonlibs/)�
 
 中国香港和中国澳门分别为`Hong Kong`和`Macao`
 
-数据文件只支持`csv`格式，默认数据文件`sample.csv`。如需使用其他文件名需要改`travelled_map.py`文件中相应的路径。
+数据文件只支持`csv`格式，默认数据文件`sample.csv`。如需自定义需要改`travelled_map.py`文件中相应的路径。
 
 ### 运行
 
