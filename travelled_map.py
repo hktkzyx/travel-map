@@ -9,7 +9,7 @@ from matplotlib.patches import Polygon
 from matplotlib.patches import Patch
 from matplotlib.collections import PatchCollection
 import pandas as pd
-
+#增加一些注释
 # 读取用户数据
 initial_data = pd.read_csv('sample.csv')
 columns = initial_data.columns
