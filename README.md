@@ -4,7 +4,7 @@
 
 ---
 
-### 安装
+## 安装
 
 需要预先安装Matplotlib Basemap Toolkit，请阅读[文档](https://matplotlib.org/basemap/index.html)。
 
@@ -41,7 +41,7 @@ Windows用户可以通过[网站](https://www.lfd.uci.edu/~gohlke/pythonlibs/)�
 
 直接运行`travelled_map.py`即可得到`pdf`格式的旅行地图
 
-### 许可证
+## 许可证
 
 木兰宽松许可证，第2版 （Mulan Permissive Software License，Version 2）
 
