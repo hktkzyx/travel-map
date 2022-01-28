@@ -40,3 +40,19 @@ Windows用户可以通过[网站](https://www.lfd.uci.edu/~gohlke/pythonlibs/)�
 ### 运行
 
 直接运行`travelled_map.py`即可得到`pdf`格式的旅行地图
+
+### 许可证
+
+木兰宽松许可证，第2版 （Mulan Permissive Software License，Version 2）
+
+```
+Copyright (c) 2019 hktkzyx
+travel-map is licensed under Mulan PSL v2.
+You can use this software according to the terms and conditions of the Mulan PSL v2.
+You may obtain a copy of Mulan PSL v2 at:
+         http://license.coscl.org.cn/MulanPSL2
+THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+See the Mulan PSL v2 for more details.
+```
