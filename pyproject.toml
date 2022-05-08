@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "travel-map"
-version = "1.2.2"
+version = "2.0.0"
 description = "A tool to generate travel map."
 authors = ["hktkzyx <hktkzyx@yeah.net>"]
 license = "MulanPSL-2.0"
@@ -41,7 +41,7 @@ travel-map = 'travel_map.scripts.commands:travel_map'
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "1.2.2"
+version = "2.0.0"
 tag_format = "v$version"
 version_files = ["pyproject.toml:version"]
 
