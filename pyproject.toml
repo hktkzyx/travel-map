@@ -5,11 +5,11 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "travel-map"
 version = "1.2.2"
-description = "A tool to generate travel map."
+description = "A tool to generate travel map. 一个精确到城市的旅行地图。"
 authors = ["hktkzyx <hktkzyx@yeah.net>"]
 license = "MulanPSL-2.0"
 readme = "README.md"
-repository = "https://github.com/hktkzyx/auto-depreciation"
+repository = "https://github.com/hktkzyx/travel-map"
 packages = [{ include = "travel_map" }]
 
 [tool.poetry.dependencies]
