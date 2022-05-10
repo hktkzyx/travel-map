@@ -4,12 +4,12 @@
 本项目是基于开源项目 [pyechart](https://github.com/pyecharts/pyecharts)，
 生成的中国地图符合法律规范。
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hktkzyx/travel-map/Build%20and%20Test%20Python%20Package)
-![Codecov](https://img.shields.io/codecov/c/github/hktkzyx/travel-map)
-![PyPI](https://img.shields.io/pypi/v/travel-map)
-![PyPI - License](https://img.shields.io/pypi/l/travel-map)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/travel-map)
-![GitHub last commit](https://img.shields.io/github/last-commit/hktkzyx/travel-map)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hktkzyx/travel-map/Build%20and%20Test%20Python%20Package)](https://github.com/hktkzyx/travel-map/actions/workflows/build_and_test.yml)
+[![Codecov](https://img.shields.io/codecov/c/github/hktkzyx/travel-map)](https://app.codecov.io/gh/hktkzyx/travel-map)
+[![PyPI](https://img.shields.io/pypi/v/travel-map)](https://pypi.org/project/travel-map/)
+[![PyPI - License](https://img.shields.io/pypi/l/travel-map)](https://github.com/hktkzyx/travel-map/blob/main/LICENSE)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/travel-map)](https://img.shields.io/pypi/pyversions/travel-map)
+[![GitHub last commit](https://img.shields.io/github/last-commit/hktkzyx/travel-map)](https://github.com/hktkzyx/travel-map/commits/main)
 
 ## 安装
 
