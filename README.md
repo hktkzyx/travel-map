@@ -4,6 +4,8 @@
 本项目是基于开源项目 [pyechart](https://github.com/pyecharts/pyecharts)，
 生成的中国地图符合法律规范。
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hktkzyx/travel-map/build_and_test)
+![Codecov](https://img.shields.io/codecov/c/github/hktkzyx/travel-map)
 ![PyPI](https://img.shields.io/pypi/v/travel-map)
 ![PyPI - License](https://img.shields.io/pypi/l/travel-map)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/travel-map)
