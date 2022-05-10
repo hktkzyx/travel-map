@@ -25,14 +25,10 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: "3.x"
-      - name: Install poetry on Linux
+      - name: Install poetry
         if: ${{ matrix.os == 'ubuntu-latest' }}
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
-      - name: Install poetry on Windows
-        if: ${{ matrix.os == 'windows-latest' }}
-        run: |
-          (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
       - name: Install dependencies
         run: poetry install
       - name: Build package
