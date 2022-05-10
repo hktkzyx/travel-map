@@ -4,13 +4,14 @@ requires = ["poetry-core>=1.0.0"]
 
 [tool.poetry]
 authors = ["hktkzyx <hktkzyx@yeah.net>"]
+classifiers = ["License :: OSI Approved", "Natural Language :: English", "Natural Language :: Chinese (Simplified)"]
 description = "A tool to generate travel map."
+documentation = "https://github.com/hktkzyx/travel-map"
+homepage = "https://github.com/hktkzyx/travel-map"
 license = "MulanPSL-2.0"
 name = "travel-map"
 readme = "README.md"
 repository = "https://github.com/hktkzyx/travel-map"
-homepage = "https://github.com/hktkzyx/travel-map"
-documentation = "https://github.com/hktkzyx/travel-map"
 version = "2.0.0"
 
 [tool.poetry.dependencies]
@@ -36,8 +37,8 @@ flake8 = "^4.0.1"
 flake8-docstrings = "^1.6.0"
 isort = "^5.10.1"
 pre-commit = "^2.17.0"
-yapf = ">=0.32.0, <1.0.0"
 toml = "^0.10.2"
+yapf = ">=0.32.0, <1.0.0"
 
 [tool.poetry.scripts]
 travel-map = 'travel_map.scripts.commands:travel_map'
