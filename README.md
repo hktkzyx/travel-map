@@ -81,7 +81,7 @@ travel-map --title "我的旅行地图" --output travel_map.html travelled_citie
 
 木兰宽松许可证，第2版 （Mulan Permissive Software License，Version 2）
 
-Copyright (c) 2019 hktkzyx
+Copyright (c) 2019 Brooks YUAN
 
 travel-map is licensed under Mulan PSL v2.
 

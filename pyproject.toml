@@ -3,7 +3,7 @@ build-backend = "poetry.core.masonry.api"
 requires = ["poetry-core>=1.0.0"]
 
 [tool.poetry]
-authors = ["hktkzyx <hktkzyx@yeah.net>"]
+authors = ["Brooks YUAN <hktkzyx@yeah.net>"]
 classifiers = ["License :: OSI Approved", "Natural Language :: English", "Natural Language :: Chinese (Simplified)"]
 description = "A tool to generate travel map."
 documentation = "https://github.com/hktkzyx/travel-map"
