@@ -30,8 +30,7 @@ jobs:
         uses: snok/install-poetry@v1
       - name: Install dependencies
         run: |
-          poetry install
-          poetry install -E test
+          poetry install --no-dev -E test
       - name: Build with poetry
         run: poetry build
       - name: Test with pytest
