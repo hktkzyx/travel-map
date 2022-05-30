@@ -41,42 +41,6 @@ travel-map --title "我的旅行地图" --output travel_map.html travelled_citie
 
 ![demo](./demo/demo.png)
 
-## 如何贡献
-
-十分欢迎 Fork 本项目！
-欢迎修复 bug 或开发新功能。
-开发时请遵循以下步骤:
-
-1. 使用 [poetry](https://python-poetry.org/) 作为依赖管理
-
-    克隆项目后，在项目文件夹运行
-
-    ```bash
-    poetry install
-    ```
-
-2. 使用 [pre-commit](https://pre-commit.com/) 并遵守 [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) 规范
-
-    安装 pre-commit 并运行
-
-    ```bash
-    pre-commit install -t pre-commit -t commit-msg
-    ```
-
-    建议使用 [commitizen](https://github.com/commitizen-tools/commitizen) 提交您的 commits。
-
-3. 遵循 [gitflow](https://nvie.com/posts/a-successful-git-branching-model/) 分支管理策略
-
-    安装 [git-flow](https://github.com/petervanderdoes/gitflow-avh) 管理您的分支并运行
-
-    ```bash
-    git config gitflow.branch.master main
-    git config gitflow.prefix.versiontag v
-    git flow init -d
-    ```
-
-4. PR 代码到 develop 分支
-
 ## 许可证
 
 木兰宽松许可证，第2版 （Mulan Permissive Software License，Version 2）
