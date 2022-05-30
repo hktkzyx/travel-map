@@ -41,6 +41,10 @@ travel-map --title "我的旅行地图" --output travel_map.html travelled_citie
 
 ![demo](./demo/demo.png)
 
+## 贡献
+
+如果你想提交你的代码，请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
 ## 许可证
 
 木兰宽松许可证，第2版 （Mulan Permissive Software License，Version 2）
