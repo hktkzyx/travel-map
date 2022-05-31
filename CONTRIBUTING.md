@@ -94,7 +94,7 @@ git flow bugfix/feature rebase <branch_name>
 git checkout develop
 git pull --rebase upstream develop
 git checkout <branch_name>
-git rebase/merge develop
+git rebase develop
 ```
 
 最后，就可以提交你的 PR 到 develop 分支了。
