@@ -85,7 +85,7 @@ pytest
 ```bash
 git checkout develop
 git pull --rebase upstream develop
-git flow bugfix/feature rebase <branch_name>
+git flow bugfix rebase <branch_name>
 ```
 
 或者
